@@ -8,3 +8,4 @@ This version adds:
 * Support for installing development dependencies through setup.py
 * PyTest unit-test support
 * An [.editorconfig](http://editorconfig.org/) file
+* Sphinx documentation generation through setup.py
