@@ -7,17 +7,15 @@ import os
 from setuptools import setup
 from setuptools import Command
 from setuptools.command.test import test as TestCommand
-from setuptools.command.develop import develop as DevelopCommand
 from datetime import datetime
 
 NAME = 'python-boilerplate'
 VERSION = '0.1'
 AUTHOR = 'Keath Milligan'
-REQUIRED_PYTHON_VERSION = (2,7)
+REQUIRED_PYTHON_VERSION = (2, 7)
 PACKAGES = ['sample']
 INSTALL_DEPENDENCIES = []
 SETUP_DEPENDENCIES = [
-    'Sphinx'
 ]
 TEST_DEPENDENCIES = [
     'pytest'
@@ -93,6 +91,6 @@ setup(
     extras_require=EXTRA_DEPENDENCIES,
     cmdclass={
         'test': PyTest,
-        'doc' : BuildDocs
+        'doc': BuildDocs
     }
 )
