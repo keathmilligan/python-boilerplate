@@ -19,12 +19,6 @@ The project is ready to run as is. You will need Python 2.7 or later.
 After cloning or downloading the repo, create a Python virtual environment with:
 
 ```
-pyvenv .virtualenv
-```
-
-or
-
-```
 python -m venv .virtualenv
 ```
 
