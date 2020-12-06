@@ -25,7 +25,11 @@ After cloning or downloading the repo, create a Python virtual environment with:
 python -m venv .virtualenv
 ```
 
-if the `pyvenv` command does not exist on your system.
+for Python 3.x.
+
+For Python 2.7, use the `virtualenv` command.
+
+This will create the virtual environment in the project directory as `.virtualenv`. This is the convention I prefer as it keeps projects isolated from one another, but you can create your virtual environment whereever you like.
 
 ## Activate the Virtual Environment
 
@@ -35,10 +39,16 @@ Now activate the virtual environment. on macOS, Linux and Unix systems, use:
 source .virtualenv/bin/activate
 ```
 
-On Windows:
+On Windows with `cmd.exe`:
 
 ```
 .virtualenv\Scripts\activate.bat
+```
+
+Or Windows with PowerShell:
+
+```
+.\.virtualenv2\Scripts\activate.ps1
 ```
 
 ## Install the Development Environment
