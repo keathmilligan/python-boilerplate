@@ -3,7 +3,7 @@ Python Project Boilerplate
 
 This repo provides a standardized template for Python package projects. The project structure is based on the layout [recommended by Kenneth Reitz](https://kennethreitz.org/essays/2013/01/27/repository-structure-and-python) with a few modern updates.
 
-> This template is best suited for projects such as a library or framework that you intend to publish to a public or private repository. For general applications, I recommend the [Python Application Template](https://github.com/keathmilligan/python-app-template) instead. For web applications and services, see [Flask Quick Start](https://github.com/keathmilligan/flask-quickstart).
+> This template is best suited for projects such as a library or framework that you intend to publish to a public or private repository. For general applications, I recommend the [Python Application Template](https://github.com/keathmilligan/python-app-template) instead. For web applications and services, see [Flask Quick Start](https://github.com/keathmilligan/flask-quickstart) and [Flask Service](https://github.com/keathmilligan/flask-service).
 
 Features:
 * Editable install support
